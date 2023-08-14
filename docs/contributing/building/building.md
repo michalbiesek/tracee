@@ -9,6 +9,7 @@
 
     1. x86_64 (amd64)
     1. aarch64 (arm64)
+    1. riscv64 (riscv64)
 
 2. Building **dependencies**
 

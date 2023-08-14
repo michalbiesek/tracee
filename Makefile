@@ -135,6 +135,12 @@ ifeq ($(UNAME_M),aarch64)
 	GO_ARCH = arm64
 endif
 
+ifeq ($(UNAME_M),riscv64)
+	ARCH = riscv64
+	LINUX_ARCH = riscv64
+	GO_ARCH = riscv64
+endif
+
 .PHONY: env
 env:
 	@echo ---------------------------------------

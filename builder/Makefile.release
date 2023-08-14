@@ -57,6 +57,11 @@ ifeq ($(UNAME_M),aarch64)
 	ALTARCH = arm64
 endif
 
+ifeq ($(UNAME_M),riscv64)
+	ARCH = riscv64
+	ALTARCH = riscv64
+endif
+
 ifeq ($(ALTARCH),)
 	@echo "can't find architecture"
 	exit 1
